@@ -33,3 +33,6 @@ $ php tastphp install
 ```
 
 <img src="https://github.com/tastphp-lab/assets/blob/master/install/install-screen.gif?raw=true">
+
+## License
+[MIT Licensed](http://www.opensource.org/licenses/MIT)
