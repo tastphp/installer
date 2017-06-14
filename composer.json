@@ -1,0 +1,27 @@
+{
+  "name": "tastphp/tastphp-installer",
+  "description": "Tastphp application installer.",
+  "keywords": [
+    "tastphp"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "xujiajun",
+      "email": "me@xujiajun.cn"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Tastphp\\Installer\\Console\\": "src/"
+    }
+  },
+  "require": {
+    "symfony/console": "^3.3",
+    "guzzlehttp/guzzle": "^6.2",
+    "symfony/filesystem": "^3.3"
+  },
+  "bin": [
+    "tastphp"
+  ]
+}
