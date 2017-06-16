@@ -10,7 +10,7 @@ tastphp installer tool
 ## Installation
 
 ```
-git clone https://github.com/tastphp/installer.git
+git clone https://github.com/tastphp/tastphp-installer.git
 
 cd installer
 
