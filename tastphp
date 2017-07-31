@@ -9,7 +9,7 @@ if (file_exists(__DIR__.'/../../autoload.php')) {
 
 use Symfony\Component\Console\Application;
 
-$application = new Application('tastphp-installer','v1.0.1');
+$application = new Application('tastphp-installer','v1.0.3');
 
 $application->add(new \Tastphp\Installer\Console\InstallerCommand());
 
