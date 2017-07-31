@@ -11,7 +11,7 @@ use Symfony\Component\Filesystem\Filesystem;
 
 class InstallerCommand extends Command
 {
-    private $version = '1.3.1';
+    private $version = '1.3.2';
 
     protected function configure()
     {
@@ -37,7 +37,7 @@ class InstallerCommand extends Command
             ->extract($zipFile, $installDirectory)
             ->cleanUp($zipFile);
         $output->writeln('<info>Composer install...</info>');
-        exec("cd {$installDirectory}/tastphp-{$this->version}&&composer install");
+        exec("cd {$installDirectory}/tastphp-{$this->version}&&composer install&&composer update");
         $output->writeln("<fg=black;bg=green>You have successfully installed Tastphp! </>");
     }
 

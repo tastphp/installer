@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
+app_version=1.3.2
 cd /var/www
-wget https://github.com/tastphp/tastphp/archive/v1.3.1.zip
-unzip v1.3.1.zip
-rm v1.3.1.zip
-cd tastphp-1.3.1
-composer install
+wget https://github.com/tastphp/tastphp/archive/v${app_version}.zip
+unzip v${app_version}.zip
+rm v${app_version}.zip
+cd tastphp-${app_version}
+composer install && composer update
 echo "You have successfully installed Tastphp!"
