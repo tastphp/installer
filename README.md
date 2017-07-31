@@ -24,7 +24,7 @@ chmod +x tastphp
 ### check version
 ```
 $ php tastphp -V
-tastphp-installer v1.3.1
+tastphp-installer v1.0.3
 ```
 
 ### install tastphp
