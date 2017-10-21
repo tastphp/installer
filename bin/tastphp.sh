@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-app_version=1.3.3
+app_version=1.3.6
 cd /var/www
 wget https://github.com/tastphp/tastphp/archive/v${app_version}.zip
 unzip v${app_version}.zip

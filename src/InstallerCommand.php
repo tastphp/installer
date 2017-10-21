@@ -11,7 +11,7 @@ use Symfony\Component\Filesystem\Filesystem;
 
 class InstallerCommand extends Command
 {
-    private $version = '1.3.3';
+    private $version = '1.3.6';
 
     protected function configure()
     {
